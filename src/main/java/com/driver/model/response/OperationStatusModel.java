@@ -1,5 +1,9 @@
 package com.driver.model.response;
 
+import lombok.Builder;
+import lombok.NoArgsConstructor;
+
+@Builder
 public class OperationStatusModel {
 
 	private String operationResult;
